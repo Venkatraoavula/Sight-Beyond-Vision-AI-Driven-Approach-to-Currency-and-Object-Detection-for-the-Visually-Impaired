@@ -1,0 +1,13 @@
+train: C:\Users\venka\PycharmProjects\blind\train\images
+val: C:\Users\venka\PycharmProjects\blind\valid\images
+test: C:\Users\venka\PycharmProjects\blind\test\images
+
+nc: 9
+names: ['10', '100', '20', '200', '2000', '50', '500','Invalid Currency', 'fake currency']
+
+roboflow:
+  workspace: sathiya
+  project: currency-sihjd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sathiya/currency-sihjd/dataset/1
